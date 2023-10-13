@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-$("p").hide();
+  $("p").hide();
 
-$("h1").click(function() {
-  $(this.next().slideToggle(300);
-});
-  
+  $("h1").click(function() {
+    $(this).next().slideToggle(300);
+  });
+
 });
